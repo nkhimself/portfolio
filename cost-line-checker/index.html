@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cost-line checker</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5f5e58;--line:#dedbd2;--accent:#0b5d4b}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#efede6;--muted:#a8a69d;--line:#34332f;--accent:#5fcfae}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:32px 16px}
+a{color:var(--accent)} pre{white-space:pre-wrap;word-wrap:break-word;border:1px solid var(--line);border-radius:8px;padding:14px;font-size:14px}
+</style></head><body><div class="wrap">
+<p><a href="../">&larr; Back to home</a></p>
+<h1>Cost-line checker</h1>
+<h2>Files</h2><ul><li><a href="bid_cost_lines.csv">bid_cost_lines.csv</a></li><li><a href="historical_prices.csv">historical_prices.csv</a></li><li><a href="checked_report.xlsx">checked_report.xlsx</a></li><li><a href="check_costs.py">check_costs.py</a></li><li><a href="make_sample_data.py">make_sample_data.py</a></li><li><a href="README.md">README.md</a></li></ul>
+<h2>README</h2><pre># Cost-line checker
+
+Checks bid or quote cost lines against historical prices and flags what needs a second look. All data here is invented.
+
+## Files
+- `bid_cost_lines.csv` - 43 cost lines (item, quantity, unit, unit price, supplier)
+- `historical_prices.csv` - past prices for the same items
+- `checked_report.xlsx` - output (sheets `summary`, `flagged`, `all_lines`)
+- `check_costs.py` - the script
+- `make_sample_data.py` - creates the invented input files
+
+## Run it
+```
+pip install pandas openpyxl
+python check_costs.py bid_cost_lines.csv historical_prices.csv checked_report.xlsx
+python check_costs.py bid_cost_lines.csv historical_prices.csv checked_report.xlsx --tolerance 0.20
+```
+
+## What it checks
+- Unit spellings are normalised (m3 / m³ / cbm, m2 / m² / sqm, ...)
+- Line total = quantity x unit price
+- Unit price vs the median historical price for that item (default tolerance 30%)
+- Missing quantity or price
+- Exact duplicate lines
+- Items with no price history
+- Units that differ from the item&#x27;s usual unit
+
+It never changes your numbers. It only adds a status and a note.
+
+## Result on the sample
+7 of 43 lines flagged: a price +152% above history, a price -42% below it, a missing quantity, a missing price, a duplicate line, an item with no history, and a wrong unit (tonnes for excavation).
+</pre>
+</div></body></html>

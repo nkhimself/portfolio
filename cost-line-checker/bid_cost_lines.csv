@@ -1,0 +1,44 @@
+line,item,qty,unit,unit_price_eur,supplier
+1,Interior paint,35,l,7.92,Baumarkt GmbH
+2,Plywood 18mm,80,m2,24.73,Nordbygg AB
+3,Plywood 18mm,12,m2,22.24,Stenhus Oy
+4,Cement bags 25kg,80,pcs,16.64,Baumarkt GmbH
+5,Interior paint,600,ltr,6.83,Stenhus Oy
+6,Excavation,150,M3,11.39,Baumarkt GmbH
+7,Roof tiles,12,sqm,31.79,Baumarkt GmbH
+8,Interior paint,12,l,7.52,Baumarkt GmbH
+9,Roof tiles,80,M2,18.60,Nordbygg AB
+10,Rebar 12mm,4,KG,0.95,Baumarkt GmbH
+11,Roof tiles,35,M2,30.51,Stenhus Oy
+12,Drywall 12.5mm,12,m2,6.08,Baumarkt GmbH
+13,Insulation board 100mm,80,m2,14.98,Stenhus Oy
+14,Insulation board 100mm,12,m2,15.54,Stenhus Oy
+15,Roof tiles,,m2,29.44,Baumarkt GmbH
+16,Cement bags 25kg,35,pc,6.44,Nordbygg AB
+17,Excavation,12,cbm,12.40,Baumarkt GmbH
+18,Interior paint,4,L,7.81,Stenhus Oy
+19,Cement bags 25kg,4,pcs,5.79,Bouw & Co
+20,Rebar 12mm,600,kg,1.01,Nordbygg AB
+21,Rebar 12mm,80,kgs,,Nordbygg AB
+22,Plywood 18mm,2000,sqm,24.59,Stenhus Oy
+23,Rebar 12mm,600,kg,1.04,Bouw & Co
+24,Concrete C25/30,2000,m3,118.00,Bouw & Co
+25,Roof tiles,150,m2,27.98,Nordbygg AB
+26,Rebar 12mm,600,KG,0.97,Bouw & Co
+27,Excavation,80,M3,12.50,Bouw & Co
+28,Copper pipe 22mm,2000,M,9.98,Nordbygg AB
+29,Cement bags 25kg,150,pcs,5.87,Baumarkt GmbH
+30,Rebar 12mm,80,kgs,1.11,Bouw & Co
+31,Cement bags 25kg,4,pc,6.23,Baumarkt GmbH
+32,Drywall 12.5mm,12,sqm,5.88,Bouw & Co
+33,Copper pipe 22mm,12,M,9.56,Stenhus Oy
+34,Insulation board 100mm,600,m²,14.60,Baumarkt GmbH
+35,Roof tiles,12,sqm,31.52,Baumarkt GmbH
+36,Plywood 18mm,12,m2,22.48,Nordbygg AB
+37,Cement bags 25kg,2000,PCS,5.98,Bouw & Co
+38,Cement bags 25kg,12,PCS,6.82,Bouw & Co
+39,Excavation,600,M3,12.28,Stenhus Oy
+40,Rebar 12mm,2000,kgs,0.95,Nordbygg AB
+6,Excavation,150,M3,11.39,Baumarkt GmbH
+99,Scaffolding rental,1,week,850.00,Nordbygg AB
+100,Excavation,40,tonnes,11.50,Stenhus Oy

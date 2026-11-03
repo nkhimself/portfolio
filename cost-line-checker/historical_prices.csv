@@ -1,0 +1,81 @@
+item,unit,date,unit_price_eur
+Concrete C25/30,m3,2026-01-15,117.1
+Concrete C25/30,m3,2026-02-15,119.13
+Concrete C25/30,m3,2026-03-15,126.01
+Concrete C25/30,m3,2026-04-15,117.35
+Concrete C25/30,m3,2026-05-15,118.15
+Concrete C25/30,m3,2026-06-15,119.65
+Concrete C25/30,m3,2026-07-15,112.05
+Concrete C25/30,m3,2026-08-15,118.22
+Rebar 12mm,kg,2026-01-15,1.07
+Rebar 12mm,kg,2026-02-15,1.1
+Rebar 12mm,kg,2026-03-15,0.98
+Rebar 12mm,kg,2026-04-15,1.02
+Rebar 12mm,kg,2026-05-15,0.98
+Rebar 12mm,kg,2026-06-15,1.1
+Rebar 12mm,kg,2026-07-15,1.08
+Rebar 12mm,kg,2026-08-15,0.97
+Plywood 18mm,m2,2026-01-15,24.24
+Plywood 18mm,m2,2026-02-15,24.17
+Plywood 18mm,m2,2026-03-15,23.05
+Plywood 18mm,m2,2026-04-15,22.92
+Plywood 18mm,m2,2026-05-15,21.27
+Plywood 18mm,m2,2026-06-15,20.75
+Plywood 18mm,m2,2026-07-15,22.6
+Plywood 18mm,m2,2026-08-15,20.91
+Insulation board 100mm,m2,2026-01-15,14.07
+Insulation board 100mm,m2,2026-02-15,14.19
+Insulation board 100mm,m2,2026-03-15,13.69
+Insulation board 100mm,m2,2026-04-15,14.71
+Insulation board 100mm,m2,2026-05-15,14.66
+Insulation board 100mm,m2,2026-06-15,15.61
+Insulation board 100mm,m2,2026-07-15,14.85
+Insulation board 100mm,m2,2026-08-15,15.13
+Cement bags 25kg,pcs,2026-01-15,6.4
+Cement bags 25kg,pcs,2026-02-15,6.57
+Cement bags 25kg,pcs,2026-03-15,6.36
+Cement bags 25kg,pcs,2026-04-15,6.17
+Cement bags 25kg,pcs,2026-05-15,6.91
+Cement bags 25kg,pcs,2026-06-15,6.91
+Cement bags 25kg,pcs,2026-07-15,6.75
+Cement bags 25kg,pcs,2026-08-15,6.61
+Excavation,m3,2026-01-15,11.16
+Excavation,m3,2026-02-15,11.0
+Excavation,m3,2026-03-15,11.11
+Excavation,m3,2026-04-15,10.71
+Excavation,m3,2026-05-15,11.99
+Excavation,m3,2026-06-15,11.32
+Excavation,m3,2026-07-15,12.14
+Excavation,m3,2026-08-15,11.29
+Roof tiles,m2,2026-01-15,33.27
+Roof tiles,m2,2026-02-15,32.72
+Roof tiles,m2,2026-03-15,28.52
+Roof tiles,m2,2026-04-15,29.56
+Roof tiles,m2,2026-05-15,33.03
+Roof tiles,m2,2026-06-15,30.85
+Roof tiles,m2,2026-07-15,33.38
+Roof tiles,m2,2026-08-15,30.49
+Copper pipe 22mm,m,2026-01-15,9.22
+Copper pipe 22mm,m,2026-02-15,10.11
+Copper pipe 22mm,m,2026-03-15,10.34
+Copper pipe 22mm,m,2026-04-15,9.54
+Copper pipe 22mm,m,2026-05-15,9.25
+Copper pipe 22mm,m,2026-06-15,9.63
+Copper pipe 22mm,m,2026-07-15,10.64
+Copper pipe 22mm,m,2026-08-15,10.31
+Drywall 12.5mm,m2,2026-01-15,5.26
+Drywall 12.5mm,m2,2026-02-15,5.37
+Drywall 12.5mm,m2,2026-03-15,5.24
+Drywall 12.5mm,m2,2026-04-15,5.21
+Drywall 12.5mm,m2,2026-05-15,5.87
+Drywall 12.5mm,m2,2026-06-15,5.31
+Drywall 12.5mm,m2,2026-07-15,5.65
+Drywall 12.5mm,m2,2026-08-15,5.55
+Interior paint,l,2026-01-15,6.84
+Interior paint,l,2026-02-15,7.47
+Interior paint,l,2026-03-15,6.77
+Interior paint,l,2026-04-15,7.37
+Interior paint,l,2026-05-15,6.76
+Interior paint,l,2026-06-15,7.11
+Interior paint,l,2026-07-15,6.87
+Interior paint,l,2026-08-15,6.93
